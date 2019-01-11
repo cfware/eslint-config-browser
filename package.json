@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/eslint-config-browser",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "ESLint configuration for scripts to be loaded by the browser",
 	"main": "index.js",
 	"scripts": {
