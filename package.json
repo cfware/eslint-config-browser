@@ -26,6 +26,7 @@
 	},
 	"homepage": "https://github.com/cfware/eslint-config-browser#readme",
 	"devDependencies": {
+		"@cfware/eslint-config-browser": "file:.",
 		"ava": "^1.0.1",
 		"xo": "^0.23"
 	},
@@ -34,5 +35,21 @@
 	},
 	"dependencies": {
 		"babel-eslint": "^10.0.1"
+	},
+	"xo": {
+		"overrides": [
+			{
+				"files": [
+					"fixtures/index.js"
+				],
+				"extends": "@cfware/eslint-config-browser"
+			},
+			{
+				"files": [
+					"fixtures/legacy.js"
+				],
+				"extends": "@cfware/eslint-config-browser/legacy"
+			}
+		]
 	}
 }
