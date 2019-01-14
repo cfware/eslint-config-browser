@@ -27,7 +27,7 @@
 	"homepage": "https://github.com/cfware/eslint-config-browser#readme",
 	"devDependencies": {
 		"@cfware/eslint-config-browser": "file:.",
-		"xo": "^0.23"
+		"xo": "^0.24.0"
 	},
 	"peerDependencies": {
 		"eslint": ">=5"
