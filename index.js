@@ -9,6 +9,6 @@ module.exports = {
 	},
 	rules: {
 		'import/no-unassigned-import': 'off',
-		'no-unused-expressions': ['error', {allowTaggedTemplates: true}]
+		'symbol-description': 'off'
 	}
 };
