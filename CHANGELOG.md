@@ -1,3 +1,22 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+# [0.2.0](https://github.com/cfware/eslint-config-browser/compare/v0.1.2...v0.2.0) (2019-03-12)
+
+
+### Features
+
+* Disable symbol-description rule. ([c488465](https://github.com/cfware/eslint-config-browser/commit/c488465))
+
+
+### BREAKING CHANGES
+
+* no-unused-expressions no longer ignores tagged
+templates.
+
+
+
 ## [0.1.2](https://github.com/cfware/eslint-config-browser/compare/v0.1.1...v0.1.2) (2019-01-15)
 
 
@@ -22,6 +41,3 @@
 ### Bug Fixes
 
 * Replace xo option envs with eslint option env. ([a2b3c7a](https://github.com/cfware/eslint-config-browser/commit/a2b3c7a))
-
-
-
