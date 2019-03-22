@@ -9,6 +9,13 @@ module.exports = {
 	},
 	rules: {
 		'import/no-unassigned-import': 'off',
-		'symbol-description': 'off'
+		'symbol-description': 'off',
+		'lines-between-class-members': [
+			'error',
+			'always',
+			{
+				exceptAfterSingleLine: true
+			}
+		]
 	}
 };
