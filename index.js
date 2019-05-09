@@ -7,6 +7,12 @@ module.exports = {
 		es6: true,
 		node: false
 	},
+	plugins: [
+		'lit'
+	],
+	extends: [
+		'plugin:lit/recommended'
+	],
 	rules: {
 		'import/no-unassigned-import': 'off',
 		'symbol-description': 'off',
@@ -16,6 +22,9 @@ module.exports = {
 			{
 				exceptAfterSingleLine: true
 			}
-		]
+		],
+		'lit/no-invalid-html': 'off',
+		'lit/no-useless-template-literals': 'error',
+		'lit/no-value-attribute': 'error'
 	}
 };

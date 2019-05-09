@@ -6,3 +6,7 @@ const noDescription = Symbol();
 if (noDescription) {
 	test();
 }
+
+const html = () => '';
+
+console.log(html`<self-closing />`);
