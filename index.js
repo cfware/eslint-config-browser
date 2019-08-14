@@ -23,6 +23,14 @@ module.exports = {
 				exceptAfterSingleLine: true
 			}
 		],
+		'import/extensions': [
+			'error',
+			'always',
+			{
+				ignorePackages: true
+			}
+		],
+		'unicorn/import-index': 'off',
 		'lit/no-invalid-html': 'off',
 		'lit/no-useless-template-literals': 'error',
 		'lit/no-value-attribute': 'error'
