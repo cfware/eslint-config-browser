@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/cfware/eslint-config-browser/compare/v0.3.1...v0.4.0) (2019-08-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require extensions for imports except when importing packages
+
+### Features
+
+* Require extensions for imports except when importing packages ([22e0bfc](https://github.com/cfware/eslint-config-browser/commit/22e0bfc))
+
 ### [0.3.1](https://github.com/cfware/eslint-config-browser/compare/v0.3.0...v0.3.1) (2019-06-04)
 
 
