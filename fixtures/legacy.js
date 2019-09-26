@@ -1,3 +1,5 @@
-function test() {}
+(function () {
+	function test() {}
 
-test();
+	test();
+})();
