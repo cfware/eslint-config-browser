@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/cfware/eslint-config-browser/compare/v0.4.1...v0.4.2) (2019-09-26)
+
+
+### Bug Fixes
+
+* update legacy rules for xo@0.25.3 ([#5](https://github.com/cfware/eslint-config-browser/issues/5)) ([6e24673](https://github.com/cfware/eslint-config-browser/commit/6e24673))
+
 ### [0.4.1](https://github.com/cfware/eslint-config-browser/compare/v0.4.0...v0.4.1) (2019-08-19)
 
 
